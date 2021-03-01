@@ -11,7 +11,7 @@ describe("#add", function() {
 
 describe("#average", function() {
   it("calculates the average", function() {
-    expect(average(2, 2)).toEqual(2);
+    expect(average(4, 2)).toEqual(3);
     expect(average(2, -2)).toEqual(0);
   });
   it("handles empty inputs", function() {
